@@ -8,7 +8,7 @@
   --footer:#34314b;
   --footer-base:#2e2b45;
   --contrast:rgba(246,248,249, 0.8);
-  --sucess:#64ecf5;
+  --success:#64ecf5;
   --danger:#ff8b8d;
   --grad-1:#a1ecff;
   --grad-2:#7dbcff;
@@ -106,5 +106,6 @@ img{
 } 
 
 @media (min-width:768px){
-  .pricing-table { max-width: 720px;}
+  .pricing-table,
+  .testimonial-grid { max-width: 720px;}
 } 
